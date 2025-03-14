@@ -45,16 +45,21 @@ const Links = () => {
           <NavLink item={{ title: "Login", path: "/login" }} />
         )}
       </div>
-      <Image src="/menu.png" alt="menu icon" width={30} height={30} className={styles.menuButton} onClick={()=>setOpen(prev=>!prev) }/>
-      {
-        open && (
-          <div className={styles.mobileLinks}>
-            {links.map((link) => (
-              <NavLink item={link} key={link.title} />
-            ))}
-          </div>
-        )
-      }
+      <Image
+        src="/menu.png"
+        alt="menu icon"
+        width={30}
+        height={30}
+        className={styles.menuButton}
+        onClick={() => setOpen((prev) => !prev)}
+      />
+      {open && (
+        <div className={styles.mobileLinks}>
+          {links.map((link) => (
+            <NavLink item={link} key={link.title} />
+          ))}
+        </div>
+      )}
     </div>
   );
 };

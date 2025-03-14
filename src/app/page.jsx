@@ -1,8 +1,7 @@
-import Image from 'next/image';
-import styles from '@/app/home.module.css';
+import Image from "next/image";
+import styles from "@/app/home.module.css";
 
 const Home = () => {
-
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
@@ -16,14 +15,24 @@ const Home = () => {
           <button className={styles.button}>Contact</button>
         </div>
         <div className={styles.brands}>
-          <Image src="/brands.png" alt="brands image" fill className={styles.brandImg} />
+          <Image
+            src="/brands.png"
+            alt="brands image"
+            fill
+            className={styles.brandImg}
+          />
         </div>
       </div>
       <div className={styles.imgContainer}>
-        <Image src="/hero.gif" fill alt="Hero image" className={styles.heroImg}/>
+        <Image
+          src="/hero.gif"
+          fill
+          alt="Hero image"
+          className={styles.heroImg}
+        />
       </div>
     </div>
-);
+  );
 };
 
 export default Home;

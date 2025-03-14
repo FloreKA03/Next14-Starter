@@ -1,9 +1,5 @@
-const BlogLayout = ({children}) => {
-    return (
-        <div>
-            {children}
-        </div>
-    );
+const BlogLayout = ({ children }) => {
+  return <div>{children}</div>;
 };
 
 export default BlogLayout;

@@ -9,8 +9,8 @@
   height: calc(100vh - 200px);
 }
 
-.img{
-    object-fit: cover;
+.img {
+  object-fit: cover;
 }
 
 .textContainer {
@@ -29,23 +29,23 @@
   gap: 20px;
 }
 
-.avatar{
-    object-fit: cover;
-    border-radius: 50%;
+.avatar {
+  object-fit: cover;
+  border-radius: 50%;
 }
 
-.detailText{
+.detailText {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.detailTitle{
+.detailTitle {
   color: gray;
   font-weight: bold;
 }
 
-.detailValue{
+.detailValue {
   font-weight: 500;
 }
 
