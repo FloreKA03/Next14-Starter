@@ -5,8 +5,6 @@ import Image from "next/image";
 
 const ContactPage = () => {
 
-  console.log("Contact Page");
-
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
